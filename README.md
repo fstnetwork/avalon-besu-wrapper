@@ -10,7 +10,7 @@ LOG_LEVEL=info
 
 > `ETH_PRIVATE_KEY` should be from the account wallet which is not frequently used by avalon besu blockchain connector, in order to avoid tx-nonce-racing
 
-> **PLEASE MAKE SURE THE ACCOUNT WALLET HAS SUFFICIENT ETHER FOR GAS** (> 0.1 ETH) is recommended
+> **PLEASE MAKE SURE THE ACCOUNT WALLET HAS SUFFICIENT ETHER FOR GAS** (> 0.1 ETH is recommended)
 
 ## Build Docker image for K8s
 
