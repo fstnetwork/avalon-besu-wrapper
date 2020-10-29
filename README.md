@@ -28,6 +28,7 @@ yarn build
   - A smart contract which will invoke the function **`workOrderSubmit`** in the Workorder Registry
 - Workorder Registry
   - The smart contract provided by Avalon, which receives workorder requests and notifies the blockchain with the workorder status after the workorder is completed by offchain workloads
+  - Please refer to `./src/contracts/WOR.sol`, the default smart contract used by avalon besu blockchain connector
 
 ### Code example
 
