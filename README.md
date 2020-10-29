@@ -42,13 +42,18 @@ event calledback (
     string workOrderResponse
 );
 
-// this function must be implemented in customised contract for callback (the result of workorder will be filled into this function after the workorder is completed)
+// this function must be implemented in customised contract for callback
+// (the result of workorder will be filled into this function after the workorder is completed)
 function __callback__ (
     bytes32 workOrderId,
     bytes32 workerId,
     bytes32 requesterId,
     string memory workOrderResponse
 ) public {
+    //
+    // process the workOrderResponse
+    //
+
     emit calledback(workOrderId, workerId, requesterId, workOrderResponse);
 }
 ```
